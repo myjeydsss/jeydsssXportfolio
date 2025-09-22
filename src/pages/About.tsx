@@ -90,20 +90,19 @@ export default function About() {
 
           <div className="about-copy">
             <p className="about-lead">
-              I’m Jaydie, an operations-minded developer and content systems
-              builder. I design with intention, code with clarity, and love
-              shipping tools that save time for real teams. I blend modern
-              frontend craft with pragmatic backends—always caring about
-              accessibility, performance, and the tiny details that make
-              products feel effortless.
+              I’m Jaydie, a full-stack developer and IT student who loves
+              building websites with clean design, solid code, and a focus on
+              real user experience. Whether it’s front-end craft or practical
+              back-end work, I care about accessibility, performance, and the
+              details that make a project feel polished and human.
             </p>
 
             {/* Education */}
-            <div className="education">
+            <div className="about-section">
               <h3>Education</h3>
               <ul>
                 <li>
-                  <div className="edu-years">2021 – 2025</div>
+                  <span className="edu-years">2021 – 2025</span>
                   <div className="edu-body">
                     <div className="edu-school">
                       University of Mindanao – Main
@@ -114,7 +113,7 @@ export default function About() {
                   </div>
                 </li>
                 <li>
-                  <div className="edu-years">2017 – 2019</div>
+                  <span className="edu-years">2017 – 2019</span>
                   <div className="edu-body">
                     <div className="edu-school">
                       NDC – Tagum Foundation Inc.
@@ -128,7 +127,7 @@ export default function About() {
             </div>
 
             {/* Achievements */}
-            <div className="achievements">
+            <div className="about-section">
               <h3>Achievements</h3>
               <ul>
                 <li>Dean&apos;s Lister (1st Year – 3rd Year)</li>
@@ -136,7 +135,7 @@ export default function About() {
             </div>
 
             {/* Competitions */}
-            <div className="competitions">
+            <div className="about-section">
               <h3>Competitions</h3>
               <ul>
                 <li>Participant: IT Olympiad 2024 – IT Quiz Bowl</li>

@@ -17,7 +17,7 @@ export default function Projects() {
         <h2 className="section-title centered">Projects</h2>
         {/* Centered subtitle (kept narrow for nice measure) */}
         <p className="section-subtitle muted centered">
-          A few things I’ve shipped or am polishing for production.
+          Some of the work I’ve created and am polishing for production.
         </p>
 
         <div className="grid three">
