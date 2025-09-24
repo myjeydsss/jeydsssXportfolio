@@ -5,6 +5,7 @@ import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import Certificates from "./pages/Certificates";
+import { Analytics } from "@vercel/analytics/react"; // ✅ Import analytics
 
 export default function App() {
   return (
@@ -28,6 +29,7 @@ export default function App() {
         </section>
       </main>
       <Footer />
+      <Analytics /> {/* ✅ Add analytics here */}
     </div>
   );
 }
