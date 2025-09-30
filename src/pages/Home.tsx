@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { ArrowRight } from "lucide-react";
-import ProfilePic from "../assets/profile/1.jpg";
+import ProfilePic from "../assets/profile/Profile 2.jpg";
 import Resume from "../assets/docs/Jaydie Ranes Resume.pdf";
 
 export default function Home() {

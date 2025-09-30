@@ -225,6 +225,7 @@ body, p{font-size:clamp(.98rem,.9vw + .6rem,1.05rem);line-height:1.6}
   font-weight: 800;
   color: white;
   text-transform: uppercase;
+  
 }
 
 .hero {
@@ -257,6 +258,7 @@ body, p{font-size:clamp(.98rem,.9vw + .6rem,1.05rem);line-height:1.6}
   border-radius: 50%;
   display: grid;
   place-items: center;
+  
 }
 
 .avatar-wrap.medium {
