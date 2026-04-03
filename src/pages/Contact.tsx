@@ -26,7 +26,7 @@ export default function Contact() {
   );
 
   return (
-    <section id="contact" className="section contact">
+    <section className="section contact">
       {/* Animated constellation background */}
       <div className="contact-bg constellation" aria-hidden>
         {dots.map((d, i) => (

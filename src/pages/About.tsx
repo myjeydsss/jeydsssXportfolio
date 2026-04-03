@@ -90,11 +90,12 @@ export default function About() {
 
           <div className="about-copy">
             <p className="about-lead">
-              I’m Jaydie, a full-stack developer and IT student who loves
-              building websites with clean design, solid code, and a focus on
-              real user experience. Whether it’s front-end craft or practical
-              back-end work, I care about accessibility, performance, and the
-              details that make a project feel polished and human.
+              I’m Jaydie, a BSIT graduate and full-stack developer. My
+              experience includes real client and project work in web
+              development, UI/UX, and graphic design. During my internship at
+              Globe Telecom, I helped improve internal web tools using React
+              (TypeScript) and Node.js. I bring that same practical,
+              detail-focused mindset to every project I build.
             </p>
 
             {/* Education */}
@@ -102,7 +103,7 @@ export default function About() {
               <h3>Education</h3>
               <ul>
                 <li>
-                  <span className="edu-years">2021 – 2025</span>
+                  <span className="edu-years">2021 – 2026</span>
                   <div className="edu-body">
                     <div className="edu-school">
                       University of Mindanao – Main

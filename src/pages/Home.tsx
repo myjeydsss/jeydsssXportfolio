@@ -34,14 +34,14 @@ export default function Home() {
         {/* Text */}
         <p className="eyebrow snug">Hello, I’m Jaydie Ranes</p>
         <h1 className="headline hero-title shine">
-          Crafting websites that look good, work smooth, and make sense to
-          people.
+          Full-stack web developer building reliable products people can use
+          with confidence.
         </h1>
         <p className="subhead hero-sub snug">
-          I'm a full-stack web developer and IT student with a passion for clean
-          code, thoughtful UI/UX, and creative design. I also dive into graphic
-          design, bringing visuals and function together to build experiences
-          people actually enjoy using.
+          BSIT graduate and full-stack developer with hands-on experience
+          building web applications using React, TypeScript, and Node.js. I
+          focus on clean architecture, solid UI/UX, and performance so your
+          product is not only attractive, but dependable in real use.
         </p>
 
         {/* CTAs */}

@@ -3,9 +3,10 @@ import { projects } from "../data/projects";
 
 export default function Projects() {
   return (
-    <section id="projects" className="section projects">
+    <section className="section projects">
       {/* Minimal floating squares background */}
       <div className="projects-bg" aria-hidden>
+        <div className="grid-pulse" />
         <div className="float-squares">
           {Array.from({ length: 10 }).map((_, i) => (
             <span key={i} style={{ "--i": i } as React.CSSProperties} />

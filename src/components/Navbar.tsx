@@ -3,8 +3,19 @@ import { Moon, Sun, Menu } from "lucide-react";
 import Logo from "../assets/logos/logo4.png";
 
 function scrollToId(id: string) {
-  const el = document.getElementById(id);
-  if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+  const scroller = document.querySelector<HTMLElement>(".snap-container");
+  const sectionInSnap =
+    scroller?.querySelector<HTMLElement>(`:scope > section#${CSS.escape(id)}`) ??
+    null;
+  const el = sectionInSnap ?? document.getElementById(id);
+  if (!el) return;
+
+  if (scroller && sectionInSnap) {
+    scroller.scrollTo({ top: sectionInSnap.offsetTop, behavior: "smooth" });
+    return;
+  }
+
+  el.scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
 export default function Navbar() {

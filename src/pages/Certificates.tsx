@@ -136,7 +136,7 @@ export default function Certificates() {
   }, []);
 
   return (
-    <section id="certificates" className="section certificates">
+    <section className="section certificates">
       {/* Subtle animated background (complements Contact, not identical) */}
       <div className="certificates-bg" aria-hidden>
         <div className="cert-orb a" />
